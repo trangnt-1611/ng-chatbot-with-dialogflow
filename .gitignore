@@ -7,6 +7,10 @@
 # Only exists if Bazel was run
 /bazel-out
 
+functions/service-account.json
+src/environments/environment.ts
+.env
+
 # dependencies
 /node_modules
 
@@ -45,5 +49,3 @@ testem.log
 Thumbs.db
 
 # Firebase key
-functions/service-account.json
-.env
